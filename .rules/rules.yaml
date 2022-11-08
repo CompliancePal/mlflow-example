@@ -1,0 +1,6 @@
+rules:
+  legal-version-name:
+    message: '{{error}}'
+    given: '$.model_details.documentation'
+    then:
+      function: truthy
