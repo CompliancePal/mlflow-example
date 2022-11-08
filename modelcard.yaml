@@ -1,7 +1,7 @@
 model_details:
   name: Wine prediction
-  description: |
-    I have a description now
+  documentation: |
+    I have a documentation now
   version:
     name: 1.0.0
     date: 2022-11-03
