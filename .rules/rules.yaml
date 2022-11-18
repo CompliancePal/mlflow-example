@@ -6,3 +6,13 @@ rules:
     then:
       - function: truthy
         field: documentation
+  documentation-template:
+    message: '{{error}}'
+    given: '$.model_details.documentation'
+    severity: error
+    then:
+      - function: template
+        functionOptions: |
+          ## Overview
+
+          ## Details
