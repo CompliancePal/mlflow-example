@@ -1,0 +1,8 @@
+rules:
+  model-documentation:
+    message: '{{error}}'
+    given: '$.model_details'
+    severity: error
+    then:
+      - function: truthy
+        field: documentation
