@@ -11,3 +11,5 @@ model_details:
   version:
     name: 1.0.0
     date: 2022-11-03
+  run:
+    id: 01d72cd325c043b8aca87c9f1daa3326
