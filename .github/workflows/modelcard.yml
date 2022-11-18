@@ -1,8 +1,12 @@
 name: modelcard-test
 
 on:
+  push:
+    branches:
+      - demos/*
   pull_request:
-    branches: [main]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
