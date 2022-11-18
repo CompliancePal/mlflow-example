@@ -12,7 +12,8 @@ rules:
     severity: error
     then:
       - function: template
-        functionOptions: |
-          ## Overview
+        functionOptions:
+          template: |
+            ## Overview
 
-          ## Details
+            ## Details
