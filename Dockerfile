@@ -3,7 +3,7 @@ FROM continuumio/anaconda3
 RUN apt-get update
 RUN apt-get install -y git
 # Install python packages
-RUN pip install mlflow[extras]
+RUN pip install mlflow[extras]==1.29.0
 RUN pip install pymysql
 
 WORKDIR /mlflow
