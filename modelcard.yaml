@@ -1,5 +1,7 @@
 model_details:
   name: Wine prediction
+  documentation: |
+    Now we have documentation! :tada:
   version:
     name: 1.0.0
     date: 2022-11-03
