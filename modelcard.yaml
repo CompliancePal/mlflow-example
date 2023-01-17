@@ -9,7 +9,7 @@ model_details:
 
     The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
   version:
-    name: 1.0.0
-    date: 2022-11-03
+    name: 1.1.0
+    date: 2023-01-17
   run:
-    id: 01d72cd325c043b8aca87c9f1daa3326
+    id: 3e700fe63c794c6fa8d5070ae1df4a88
