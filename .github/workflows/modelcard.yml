@@ -1,12 +1,9 @@
 name: modelcard-test
 
 on:
-  push:
-    branches:
-      - demos/*
   pull_request:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 jobs:
@@ -18,7 +15,5 @@ jobs:
 
       - name: Check for model card file
         uses: CompliancePal/modelcard-action@main
-        env:
-          MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
         with:
           modelcard: modelcard.yaml

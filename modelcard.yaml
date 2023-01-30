@@ -1,5 +1,11 @@
 model_details:
   name: Wine prediction
   version:
-    name: 1.0.0
+    name:
     date: 2022-11-03
+  description: |
+    <!-- markdown description of model -->
+    ## Wine quality prediction
+    This model predicts the quality of wine batches based on physicochemical inputs and sensory outputs.
+  references:
+    reference: http://made-up-exam.ple/
