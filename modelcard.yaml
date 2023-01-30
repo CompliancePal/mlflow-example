@@ -3,6 +3,9 @@ model_details:
   version:
     name: 0.0.1
     date: 2022-11-03
+  run:
+    type: mlflow
+    id: a868574764294e54b78a4e0551a945
   description: |
     <!-- markdown description of model -->
     ## Wine quality prediction
