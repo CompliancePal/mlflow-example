@@ -1,0 +1,7 @@
+rules:
+  legal-version-name:
+    message: '{{error}}'
+    severity: error
+    given: '$.model_details.version.name'
+    then:
+      function: truthy
