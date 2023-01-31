@@ -8,4 +8,4 @@ model_details:
     ## Wine quality prediction
     This model predicts the quality of wine batches based on physicochemical inputs and sensory outputs.
   references:
-    reference: http://made-up-exam.ple/
+    - reference: http://made-up-exam.ple/
