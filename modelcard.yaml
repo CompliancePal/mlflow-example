@@ -1,7 +1,7 @@
 model_details:
   name: Wine prediction
   version:
-    name: ''
+    name: 'version 1'
     date: 2022-11-03
   description: |
     <!-- markdown description of model -->
